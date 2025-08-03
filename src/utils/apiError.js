@@ -9,7 +9,7 @@ class apiError extends Error{
         this.statuscode = statuscode,
         this.data = null,
         this.msg = msg,
-        this.errors = this.errors,
+        this.errors = errors,
         this.success = false;
     }
 }
